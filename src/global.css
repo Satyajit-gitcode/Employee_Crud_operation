@@ -1,0 +1,111 @@
+#heading{
+    background-color: rgb(109, 109, 218);
+    
+    display: flex;
+    justify-content: space-between;
+}
+#heading1{
+    background-color: rgb(109, 109, 218);
+    
+    color: white;
+    
+    
+    
+}
+#heading2{
+   
+    margin-right: 30px;
+    padding-top: 15px;
+    background-color: rgb(109, 109, 218) !important;
+    
+   
+    
+}
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+
+  
+  
+  
+  
+  
+  table {
+    width: 102%;
+    
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  thead {
+    background-color: #eeeff1;
+    
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:hover {
+    background-color: #cce5ff;
+  }
+
+#sibmit{
+  float: right;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+#btn{
+  border: none;
+  background-color: transparent;
+  color: orange;
+  font-size: x-large;
+}
+#btn2{
+  border: none;
+  background-color: transparent;
+  color: rgb(255, 0, 0);
+  font-size: x-large;
+}
+Button{
+  margin-left: 20px;
+}
+#updatebtmn{
+  margin-top: 20px;
+}
+  
+h4{
+  color: orange;
+}
+
+.pagination-controls{
+  display: flex;
+}
